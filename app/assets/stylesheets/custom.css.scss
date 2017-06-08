@@ -3,7 +3,9 @@
  
 .navbar {
   background-color: #404040;
+  margin: 0;
   padding: 15px;
+  border: 0px;
  }
  
 .navbar-default .navbar-brand {
@@ -18,3 +20,37 @@
     width: 150px;
 }
 
+ html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("carpenter-tools bluish blur.jpg") no-repeat 50% 50% ;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ff6600;
+}
+
+.content h1 {
+    font-size: 500%;
+}
