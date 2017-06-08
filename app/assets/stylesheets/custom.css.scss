@@ -1,7 +1,20 @@
 @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap";
  
- .navbar {
+.navbar {
   background-color: #404040;
-  color: #ff6600;
+  padding: 15px;
  }
+ 
+.navbar-default .navbar-brand {
+  color: #ff6600;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+}
+
+.logo {
+    width: 150px;
+}
+

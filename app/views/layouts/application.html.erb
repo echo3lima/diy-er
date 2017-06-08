@@ -19,13 +19,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <%= link_to "DIY-ERS", root_path, class: "navbar-brand" %>
+          <a href = "<%= root_path %>"><%= image_tag("DIY-ERS LOGO.png", class: "logo") %></a>
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
+          <li><%= link_to "About", about_path, class: "navbar-brand" %></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
