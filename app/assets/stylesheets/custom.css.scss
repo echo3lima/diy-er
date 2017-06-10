@@ -21,6 +21,10 @@
     width: 150px;
 }
 
+
+//Home page----------------------------------------------------------------------
+
+//Landing page
  html, body {
     margin: 0;
     padding: 0;
@@ -36,9 +40,7 @@
     display: table;
     top: 0;
     background-size: cover;
-
-
-    .inner {
+    .inner{
         display: table-cell;
         vertical-align: middle;
         width: 100%;
@@ -51,18 +53,17 @@
     margin: 0 auto;
     text-align: center;
     color: whitesmoke;
-}
-
-.content h1 {
-    font-size: 500%;
-    font-family: 'Ramabhadra', sans-serif;
-}
-
-.content .btn-default {
+    h1 {
+        font-size: 500%;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    .btn-default {
     background-color: #ff6600;
     border-color: #ff6600;
     font-family: 'Ramabhadra', sans-serif;
     color: #f3f8d9;
     padding: 2%;
     margin: 1%;
+    }
 }
+
