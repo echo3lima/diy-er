@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans:700|Ramabhadra|Roboto:900');
  
 .navbar {
   background-color: #404040;
@@ -31,26 +32,37 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url("carpenter-tools bluish blur.jpg") no-repeat 50% 50% ;
+    background: url("workshop-dark.jpg") no-repeat 50% 50% ;
     display: table;
     top: 0;
     background-size: cover;
-}
 
-.intro .inner{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
+
+    .inner {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        max-width: none;
+    }
 }
 
 .content {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    color: #ff6600;
+    color: whitesmoke;
 }
 
 .content h1 {
     font-size: 500%;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.content .btn-default {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #f3f8d9;
+    padding: 2%;
+    margin: 1%;
 }
