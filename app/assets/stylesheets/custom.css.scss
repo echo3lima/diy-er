@@ -2,68 +2,85 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans:700|Ramabhadra|Roboto:900');
  
+ 
 .navbar {
   background-color: #404040;
   margin: 0;
-  padding: 15px;
+  padding: 10px;
   border: 0px;
  }
  
-.navbar-default .navbar-brand {
-  color: #ff6600;
+.navbar-default .navbar-nav > li {
+    a{
+      color: white;  
+    }
+    a:hover {
+      color: grey;
+      text-decoration: underline;
+    }
 }
 
-.navbar-default .navbar-nav li a {
-  color: white;
+#login{
+    color: #ff6600;
+}
+a#login:hover {
+    color: grey;
+    text-decoration: underline;
 }
 
-.logo {
-    width: 150px;
-}
+img.navbar-brand {
+    margin: 0;
+    padding: 0;
+    }
+
+
 
 
 //Home page----------------------------------------------------------------------
 
 //Landing page
- html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.intro {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url("workshop-dark.jpg") no-repeat 50% 50% ;
-    display: table;
-    top: 0;
-    background-size: cover;
-    .inner{
-        display: table-cell;
-        vertical-align: middle;
+ html {
+     
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
         width: 100%;
-        max-width: none;
     }
-}
-
-.content {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    color: whitesmoke;
-    h1 {
-        font-size: 500%;
+    
+    .intro {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background: url("workshop-dark.jpg") no-repeat 50% 50% ;
+        display: table;
+        top: 0;
+        background-size: cover;
+        .inner{
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            max-width: none;
+        }
+    }
+    
+    .content {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        color: whitesmoke;
+        h1 {
+            font-size: 500%;
+            font-family: 'Ramabhadra', sans-serif;
+        }
+        .btn-default {
+        background-color: #ff6600;
+        border-color: #ff6600;
+        border-radius: 0px;
         font-family: 'Ramabhadra', sans-serif;
-    }
-    .btn-default {
-    background-color: #ff6600;
-    border-color: #ff6600;
-    font-family: 'Ramabhadra', sans-serif;
-    color: #f3f8d9;
-    padding: 2%;
-    margin: 1%;
+        color: #f3f8d9;
+        padding: 2%;
+        margin-bottom: 5%;
+        }
     }
 }
-
