@@ -2,7 +2,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans:700|Ramabhadra|Roboto:900');
  
- 
+// navbar------------------------------------------------------------------------------------------------
 .navbar {
   background-color: #404040;
   margin: 0;
@@ -41,11 +41,12 @@ img.navbar-brand {
 //Landing page
  html {
      
-    body {
+    body.home {
         margin: 0;
         padding: 0;
         height: 100%;
         width: 100%;
+        
     }
     
     .intro {
@@ -83,4 +84,32 @@ img.navbar-brand {
         margin-bottom: 5%;
         }
     }
+}
+
+.btn-default {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 0px;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #f3f8d9;
+    padding: 1%;
+}
+
+// Sign-up -------------------------------------------------------------------------------
+
+.well {
+    margin: 6%;
+    background-color: rgba(245, 245, 245, 0);
+    border-color: rgba(245, 245, 245, 0);
+}
+
+.intro2 {
+    background: url("orangepeel2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+#new-orange {
+    color: #f3f8d9;
 }
